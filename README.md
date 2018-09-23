@@ -1,8 +1,13 @@
-Html Hello World Demo
-=====================
+Html Form in IFrame Submitting Demo
+===================================
+
+当一个位于iframe中的form提交了，会发现什么情况？
 
 ```
-open index.html
+npm install
+npm run demo
 ```
 
-You will see `Hello, World!` on page.
+Then open <http://localhost:3000>
+
+![demo](./images/demo.jpg)

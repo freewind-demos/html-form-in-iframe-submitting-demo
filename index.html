@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+        function onLoad(event) {
+            console.debug('iframe is loaded', event)
+        }
+    </script>
 </head>
 <body>
-<div>Hello, World!</div>
+<h1>Top window</h1>
+<iframe src="./inner.html" name="inner-frame" onload="onLoad(event)"></iframe>
 </body>
 </html>
